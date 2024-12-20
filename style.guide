@@ -1,0 +1,117 @@
+/* Color Palette */
+:root {
+    --white: #FFFFFF;
+    --soft-black: #1C1C1E;
+    --charcoal: #2C2C2E;
+    --muted-yellow: #FFC93C;
+    --golden-yellow: #F4B400;
+    --pastel-yellow: #FFF4CC;
+    --light-gray: #E5E5E5;
+    --dark-gray: #3A3A3C;
+}
+
+/* General Styles */
+body {
+    background-color: var(--white);
+    color: var(--soft-black);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: var(--soft-black);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: var(--muted-yellow);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: var(--golden-yellow);
+}
+
+/* Buttons */
+button.primary {
+    background-color: var(--muted-yellow);
+    color: var(--soft-black);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button.primary:hover {
+    background-color: var(--golden-yellow);
+    color: var(--white);
+}
+
+button.secondary {
+    background-color: var(--soft-black);
+    color: var(--white);
+    border: 2px solid var(--muted-yellow);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+button.secondary:hover {
+    border-color: var(--golden-yellow);
+    color: var(--muted-yellow);
+}
+
+/* Section Backgrounds */
+.section-dark {
+    background-color: var(--soft-black);
+    color: var(--white);
+    padding: 40px 20px;
+}
+
+.section-light {
+    background-color: var(--pastel-yellow);
+    color: var(--soft-black);
+    padding: 40px 20px;
+}
+
+/* Links */
+a {
+    color: var(--muted-yellow);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--golden-yellow);
+}
+
+/* Dividers */
+.divider {
+    border-top: 1px solid var(--light-gray);
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    background-color: var(--soft-black);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: var(--muted-yellow);
+}
+
+footer a:hover {
+    color: var(--golden-yellow);
+}

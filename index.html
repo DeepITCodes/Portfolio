@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="./Assets/Logo - Front-end Developer.png" rel="icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Deepak Rathore - Front-End Developer</title>
+</head>
+<body>
+    <header>
+        <img src="./Assets/Logo - Front-end Developer.png" alt="logo" class="logo">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#contacts">Contact</a>
+        </nav>
+        <div class="mobile">
+            <div class="active" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+            <div class="menu" id="mobileMenu">
+                <div class="close" id="closeMenu"><i class="fa-regular fa-circle-xmark"></i></div>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#project">Project</a>
+                <a href="#contacts">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="heroSection" id="home">
+            <div class="hero">
+                <h2>Hi, I'm Deepak Rathore, a Front-End Developer.</h2>
+                <p>I design and develop user-friendly, responsive websites that elevate digital experiences.</p>
+                <button class="btn"><a href="#project">Explore My Work</a></button>
+            </div>
+        </section>
+    
+        <section class="aboutSection" id="about">
+            <div class="aboutMe">
+                <h2>About Me</h2>
+                <p>
+                    I am a self-taught front-end developer passionate about crafting modern websites and applications. My journey began with a curiosity for web
+                    technologies, and over time, I have honed <span>my skills in HTML, CSS, JavaScript, version control, and responsive design.</span> While I specialize in front-end
+                    development, I am currently expanding my expertise by learning the MERN stack. This includes back-end technologies
+                    like Node.js, Express.js, MongoDB, and front-end development with React.js. I am dedicated to writing clean, efficient code and ensuring
+                    every project is both functional and visually appealing.
+                </p>
+            </div>
+        </section>
+    
+        <section class="projectSection" id="project">
+            <h2>My Projects</h2>
+            <p>"This very portfolio showcasing my journey and skills in web development."</p>
+        </section>
+        <section class="projects">
+            <div class="cards">
+                <img src="./Assets/card1.jpg" />
+                <p class="card-title">E-commerce Store</p>
+                <p class="card-info">
+                    A fully responsive online store built with HTML, CSS, and JavaScript.
+                </p>
+                <button class="cardBtn">View</button>
+            </div>
+            <div class="cards">
+                <img src="./Assets/card2.jpg" />
+                <p class="card-title">Weather App</p>
+                <p class="card-info">
+                    Weather app built with HTML, CSS, and JavaScript for real-time forecasting.
+                </p>
+                <button class="cardBtn">View</button>
+            </div>
+            <div class="cards">
+                <img src="./Assets/card3.jpg" />
+                <p class="card-title">To-do App</p>
+                <p class="card-info">
+                    A simple To-do app using HTML, CSS, and JavaScript.
+                </p>
+                <button class="cardBtn">View</button>
+            </div>
+        </section>
+    
+        <section class="contact" id="contacts">
+            <div class="container">
+                <div class="formElement">
+                    <img src="./Assets/envelope-295411_1280.png" />
+                </div>
+                <form id="contactForm">
+                    <h2>Hire Me!</h2>
+                    <div class="error" id="errorMessage"></div>
+                    <div class="success" id="successMessage"></div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name" />
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" />
+        
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+        
+                    <button type="submit" class="formBtn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <p><b>Connect with Me</b></p>
+            <a href="https://www.linkedin.com/in/deepak-rathore-bb5719184/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/DeepITCodes" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <p><b>Email:</b> deeprathore654@gmail.com</p>
+            <p><b>Mobile:</b> +91-9179624465</p>
+        </div>
+        <div class="privacy">
+            <p>© 2024 Deepak Rathore. All rights reserved. | Privacy Policy</p>
+            <p style="color: grey;"><b>Designed and developed by DEEPAK RATHORE ❤️</b></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
